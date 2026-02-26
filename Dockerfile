@@ -1,20 +1,20 @@
-# Use a base image with Node.js for JavaScript applications
-   FROM node:14
+# Use a Python base image
+   FROM python:3.9-slim
 
    # Set the working directory
    WORKDIR /app
 
-   # Copy package.json and package-lock.json (if available)
-   COPY package*.json ./
+   # Copy the current directory contents into the container at /app
+   COPY . /app
 
-   # Install dependencies
-   RUN npm install
+   # Install any needed packages specified in requirements.txt
+   RUN pip install --no-cache-dir -r requirements.txt
 
-   # Copy the rest of the application code
-   COPY . .
+   # Make port 80 available to the world outside this container
+   EXPOSE 80
 
-   # Expose the port the app runs on
-   EXPOSE 3000
+   # Define environment variable
+   ENV NAME World
 
-   # Command to run the application
-   CMD ["npm", "start"]
+   # Run app.py when the container launches
+   CMD ["python", "app.py"]
