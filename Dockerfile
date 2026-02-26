@@ -1,22 +1,20 @@
-# Use an official Python runtime as a parent image
-   FROM python:3.9-slim AS base
+# Use a base image with Node.js for JavaScript applications
+   FROM node:14
 
-   # Set the working directory in the container
+   # Set the working directory
    WORKDIR /app
 
-   # Copy the current directory contents into the container at /app
+   # Copy package.json and package-lock.json (if available)
+   COPY package*.json ./
+
+   # Install dependencies
+   RUN npm install
+
+   # Copy the rest of the application code
    COPY . .
 
-   # Install any needed packages specified in requirements.txt
-   RUN pip install --no-cache-dir -r requirements.txt
+   # Expose the port the app runs on
+   EXPOSE 3000
 
-   # Use a multi-stage build for production
-   FROM base AS production
-   ENV NODE_ENV=production
-   RUN pip install --no-cache-dir -r requirements.txt
-
-   # Make port 80 available to the world outside this container
-   EXPOSE 80
-
-   # Run app.py when the container launches
-   CMD ["python", "app.py"]
+   # Command to run the application
+   CMD ["npm", "start"]
