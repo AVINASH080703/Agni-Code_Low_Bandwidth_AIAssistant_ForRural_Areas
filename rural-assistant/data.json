@@ -1,0 +1,1151 @@
+{
+  "pm kisan": {
+    "description": "Pradhan Mantri Kisan Samman Nidhi Yojana",
+    "benefits": "₹6000 per year in 3 installments of ₹2000 each",
+    "eligibility": "All small and marginal farmers with land up to 2 hectares",
+    "documents_required": ["Aadhaar card", "Land documents", "Bank account", "Mobile number"],
+    "application_process": "Apply online at pmkisan.gov.in or through CSC center",
+    "helpline": "1800-180-1551",
+    "installment_dates": "April-July, August-November, December-March",
+    "excluded": "Income tax payers, government employees, pensioners not eligible",
+    "status_check": "Check beneficiary status on pmkisan.gov.in with Aadhaar number",
+    "correction": "Name or bank details correction available online"
+  },
+  "ayushman bharat": {
+    "description": "Pradhan Mantri Jan Arogya Yojana (PMJAY) - World's largest health insurance scheme",
+    "coverage": "₹5 lakh per family per year on floater basis",
+    "beneficiaries": "Over 10 crore poor and vulnerable families (approx 50 crore individuals)",
+    "eligible_families": "Socio-Economic Caste Census (SECC) 2011 database based families",
+    "covered_treatments": "1394 medical packages including 167 surgeries and 622 procedures",
+    "hospitals": "Over 27,000 empaneled hospitals (public and private)",
+    "pre_existing": "Coverage from day one, no waiting period for pre-existing diseases",
+    "portability": "Cashless treatment anywhere in India",
+    "card_use": "Use PMJAY card for paperless admission",
+    "helpline": "14555 or 1800-180-1111",
+    "application": "Check eligibility at pmjay.gov.in or visit nearest empaneled hospital",
+    "documents": ["PMJAY card", "Aadhaar card", "SECC ration card"],
+    "not_covered": "OPD, outpatient drugs, dental treatments (except accidental)"
+  },
+  "ration card": {
+    "description": "Official document for subsidized food grains under National Food Security Act",
+    "types": ["Priority Household (PHH)", "Antyodaya Anna Yojana (AAY)", "BPL card", "APL card"],
+    "benefits": "Wheat @ ₹2/kg, Rice @ ₹3/kg, Coarse grains @ ₹1/kg",
+    "quantity": "5 kg per person per month (for PHH), 35 kg per family (for AAY)",
+    "other_benefits": "Used as identity proof, address proof, linked to other schemes",
+    "apply_online": "Through state food and civil supplies department website",
+    "documents": ["Aadhaar", "Residence proof", "Income certificate", "Passport size photo", "Bank details"],
+    "new_ration_card": "Apply at nearest Fair Price Shop or Tehsil office",
+    "correction": "Name/address correction at ePDS portal or local food office",
+    "ration_balance": "Check balance by sending SMS, calling 1967, or state portal",
+    "one_nation_one_ration": "Get ration from any state using same card",
+    "helpline": "1967 (toll free)",
+    "digitization": "ePoS machines at ration shops for transparent distribution"
+  },
+  "kisan helpline": {
+    "primary_number": "1800-180-1551 (Toll free)",
+    "timing": "24x7 service available",
+    "languages": "Available in multiple regional languages",
+    "services": ["Crop advice", "Pest management", "Government scheme information", "Market prices", "Weather updates", "Soil health", "Fertilizer recommendations"],
+    "alternative_numbers": ["1551 (short code from mobile)", "1800-180-1552 (for fisheries)", "1962 (animal husbandry)"],
+    "ivrs": "Interactive Voice Response System for quick information",
+    "expert_connect": "Connect directly to agriculture experts",
+    "sms_service": "Get information via SMS by registering mobile number",
+    "whatsapp_help": "Many states have agriculture WhatsApp helplines",
+    "kisan_call_center": "Operated by Ministry of Agriculture, Government of India"
+  },
+  "soil health": {
+    "definition": "Capacity of soil to function as a living ecosystem for plant growth",
+    "important_factors": ["Organic matter content", "pH level", "Nutrient content (N,P,K)", "Microbial activity", "Soil texture", "Water holding capacity"],
+    "ideal_soil_characteristics": ["Good structure and drainage", "Sufficient organic matter", "Neutral pH (6.5-7.5)", "Rich in essential nutrients", "Active beneficial microbes"],
+    "soil_degradation_causes": ["Excessive chemical fertilizers", "Deforestation", "Overgrazing", "Improper irrigation", "Monocropping", "Burning crop residues"],
+    "improvement_methods": ["Add organic manure/compost", "Practice crop rotation", "Use green manure", "Reduce chemical inputs", "Mulching", "Contour farming on slopes", "Terrace farming"],
+    "soil_testing": "Test soil every 2-3 years at government lab (nominal fee ₹50-100)",
+    "soil_health_card": "Get personalized fertilizer recommendations based on soil test",
+    "organic_carbon": "Should be minimum 0.5% for good soil health",
+    "micro_nutrients": "Zinc, Iron, Copper, Manganese, Boron essential for plant growth"
+  },
+  "dengue symptoms": {
+    "incubation_period": "4-10 days after mosquito bite",
+    "common_symptoms": ["Sudden high fever (104°F)", "Severe headache", "Pain behind eyes", "Joint and muscle pain", "Fatigue", "Nausea/vomiting", "Skin rash (appears 2-5 days after fever)", "Mild bleeding (nose/gums)"],
+    "warning_signs_severe": ["Severe abdominal pain", "Persistent vomiting", "Rapid breathing", "Bleeding gums", "Blood in vomit", "Extreme weakness", "Restlessness"],
+    "critical_phase": "Days 3-7 of illness - watch for warning signs",
+    "diagnosis": ["NS1 antigen test (first 5 days)", "IgM antibody test (after 5 days)", "Complete blood count for platelet monitoring"],
+    "treatment": ["No specific antiviral", "Paracetamol for fever (avoid aspirin/ibuprofen)", "Bed rest", "Oral rehydration", "Hospitalization if severe"],
+    "platelet_count": "Normal: 1.5-4.5 lakh, Transfusion needed if below 10,000-20,000",
+    "danger_signs": "Platelet drop, plasma leakage, organ failure",
+    "recovery": "Usually 2-7 days, fatigue may persist for weeks"
+  },
+  "malaria symptoms": {
+    "causative_agent": "Plasmodium parasite (P. falciparum, P. vivax, P. malariae, P. ovale)",
+    "transmission": "Female Anopheles mosquito bite",
+    "incubation_period": "7-30 days depending on parasite type",
+    "classic_symptoms": ["Cycles of fever with chills", "Profuse sweating", "Headache", "Muscle pain", "Fatigue", "Nausea/vomiting", "Anemia"],
+    "malaria_paroxysm": "Cold stage (shivering) → Hot stage (high fever) → Sweating stage",
+    "falciparum_malaria": "More severe, can cause cerebral malaria, organ failure",
+    "vivax_malaria": "Can relapse after months/years due to liver stage",
+    "diagnosis": ["Rapid diagnostic test (RDT)", "Microscopy (blood smear)", "PCR test"],
+    "treatment": "Artemisinin-based combination therapy (ACT) as per national guidelines",
+    "prevention": ["Mosquito nets (insecticide treated)", "Indoor residual spraying", "Antimalarial drugs for travelers", "Remove stagnant water"],
+    "complications": "Cerebral malaria, severe anemia, kidney failure, death",
+    "free_treatment": "Available at all government health facilities under NVBDCP"
+  },
+  "covid symptoms": {
+    "incubation_period": "2-14 days (average 5-6 days)",
+    "common_symptoms": ["Fever or chills", "Dry cough", "Shortness of breath", "Fatigue", "Body aches", "Headache", "Loss of taste or smell", "Sore throat", "Congestion", "Nausea/vomiting", "Diarrhea"],
+    "severe_symptoms": ["Difficulty breathing", "Persistent chest pain/pressure", "Confusion", "Bluish lips/face", "Inability to wake/stay awake"],
+    "emergency_warning": "Immediate hospitalization required if severe symptoms appear",
+    "variants_symptoms": "Delta, Omicron may have slightly different presentation (more cold-like for Omicron)",
+    "long_covid": "Symptoms persisting for weeks/months after infection",
+    "diagnosis": ["RT-PCR (gold standard)", "Rapid Antigen Test", "Chest CT in severe cases"],
+    "home_care": ["Isolation", "Paracetamol for fever", "Steam inhalation", "Hydration", "Monitor oxygen saturation"],
+    "oxygen_level": "Seek help if SpO2 drops below 94%",
+    "vaccination": "Available free at government centers - Covaxin, Covishield",
+    "prevention": "Mask, hand hygiene, social distancing, vaccination"
+  },
+  "crop rotation": {
+    "definition": "Growing different types of crops in same area in sequenced seasons",
+    "benefits": ["Improves soil fertility", "Reduces pest and disease buildup", "Controls weeds naturally", "Prevents soil erosion", "Increases crop yield", "Better nutrient utilization", "Reduces chemical dependency"],
+    "basic_principles": ["Alternate deep rooted and shallow rooted crops", "Follow legumes with cereals", "Avoid same family crops consecutively", "Include cover crops", "Consider market demand"],
+    "common_rotation_patterns": [
+      "Rice → Wheat → Green gram (1 year)",
+      "Maize → Potato → Onion (2 years)",
+      "Cotton → Sugarcane → Wheat (3 years)",
+      "Groundnut → Wheat → Bajra (2 years)"
+    ],
+    "legume_importance": "Legumes fix nitrogen in soil, benefit following cereal crops",
+    "cover_crops": "Grow crops like sunhemp, dhaincha to protect and enrich soil",
+    "rotation_by_family": "Don't follow potato with tomato (both Solanaceae family)",
+    "green_manuring": "Incorporate crop residues/legumes into soil before planting main crop",
+    "traditional_indian": "Three crop rotation common in India: Kharif → Rabi → Zaid"
+  },
+  "drip irrigation": {
+    "definition": "Water application method where water drips slowly to plant roots",
+    "water_saving": "30-70% water saving compared to flood irrigation",
+    "yield_increase": "20-90% yield increase depending on crop",
+    "components": ["Water source", "Pump and filter", "Mainline pipes", "Sub-main lines", "Laterals", "Drippers/emitters", "Valves and controllers"],
+    "advantages": ["Water conservation", "Less weed growth", "Uniform water distribution", "Fertigation possible", "Less labor cost", "Works on all slopes", "Reduced disease incidence"],
+    "disadvantages": ["High initial cost", "Clogging issues", "Sun damage to tubes", "Requires clean water", "Rodent damage possible"],
+    "suitable_crops": ["Fruits (banana, grapes, pomegranate)", "Vegetables (tomato, chilli, brinjal)", "Cash crops (sugarcane, cotton)", "Plantations (coffee, tea)"],
+    "subsidy": "Up to 80-90% subsidy for small and marginal farmers under PMKSY",
+    "fertigation": "Apply fertilizers through drip system for efficiency",
+    "maintenance": "Regular filter cleaning, flush lines periodically, check for leaks",
+    "types": ["Surface drip", "Sub-surface drip", "Micro-sprinklers", "Bubbler system"],
+    "micro_irrigation_fund": "NABARD provides additional funding for micro-irrigation"
+  },
+  "wheat farming": {
+    "scientific_name": "Triticum aestivum",
+    "season": "Rabi (October-November to March-April)",
+    "climate": "Cool growing season, warm ripening period, 10-25°C ideal",
+    "soil": "Well-drained loamy soil, pH 6.0-7.5",
+    "popular_varieties": ["HD 2967", "HD 3086", "PBW 343", "DBW 17", "GW 322", "LOK 1"],
+    "land_preparation": "2-3 ploughings followed by planking, level field",
+    "seed_rate": "100-125 kg per hectare",
+    "seed_treatment": "Treat with fungicide (Carbendazim @ 2g/kg seed)",
+    "sowing_method": "Drilling in rows at 20-22.5 cm spacing, depth 4-5 cm",
+    "sowing_time": "October 25 to November 20 (optimal)",
+    "irrigation": "4-6 irrigations at critical stages: CRI, tillering, jointing, flowering, grain filling",
+    "fertilizer": "120:60:40 kg NPK per hectare (adjust based on soil test)",
+    "weed_control": "Pre-emergence herbicide within 3 days of sowing, one hand weeding",
+    "major_pests": "Aphids, termites, stem borer",
+    "major_diseases": "Rust (yellow/brown/black), Karnal bunt, loose smut",
+    "harvesting": "When grains become hard and moisture below 25%",
+    "threshing": "Separate grain from chaff using machine or traditional method",
+    "storage": "Dried to 12% moisture, stored in clean, dry bins",
+    "yield": "40-50 quintals per hectare (improved varieties)",
+    "government_support": "MSP announced annually, procurement by FCI"
+  },
+  "rice farming": {
+    "scientific_name": "Oryza sativa",
+    "season": "Kharif (June-July to October-November)",
+    "climate": "Hot and humid, 20-35°C, high rainfall (100-200 cm)",
+    "soil": "Clay loam with good water retention, pH 5.5-7.0",
+    "popular_varieties": ["Pusa Basmati 1121", "PB 1509", "PR 126", "MTU 7029", "Swarna", "IR 64"],
+    "cultivation_methods": ["Transplanting (common)", "Direct seeding", "SRI (System of Rice Intensification)", "Aerobic rice"],
+    "nursery": "Prepare nursery 25-30 days before transplanting, 1/10th of main field area",
+    "seed_rate": "25-30 kg per hectare (transplanting), 50-60 kg (direct seeding)",
+    "seed_treatment": "Treat with streptocycline for bacterial leaf blight",
+    "land_preparation": "Puddling (ploughing in standing water) essential",
+    "transplanting": "20-25 days old seedlings, 2-3 per hill, spacing 20x15 cm",
+    "water_management": "Maintain 2-5 cm standing water during vegetative phase, drain before harvest",
+    "fertilizer": "120:60:40 kg NPK per hectare, split application",
+    "weed_control": "Pre-emergence herbicide + one hand weeding at 25-30 DAT",
+    "major_pests": "Stem borer, Brown plant hopper, Leaf folder",
+    "major_diseases": "Blast, Bacterial leaf blight, Sheath rot, Tungro virus",
+    "harvesting": "When grains turn golden yellow and moisture 20-25%",
+    "threshing": "Mechanical thresher or manual",
+    "drying": "Reduce moisture to 14% for storage",
+    "yield": "50-60 quintals per hectare (high yielding varieties)",
+    "paddy_procurement": "Government purchases at MSP through FCI/State agencies",
+    "byproducts": "Rice husk for fuel, rice bran for oil, straw for animal feed"
+  },
+  "fertilizer use": {
+    "definition": "Substances added to soil to supply nutrients for plant growth",
+    "types": [
+      "Organic fertilizers: Compost, manure, vermicompost, green manure",
+      "Inorganic fertilizers: Urea, DAP, MOP, SSP, Complex fertilizers",
+      "Biofertilizers: Rhizobium, Azotobacter, Azospirillum, PSB"
+    ],
+    "primary_nutrients": [
+      "Nitrogen (N): Leaf growth, vegetative development",
+      "Phosphorus (P): Root growth, flowering, fruiting",
+      "Potassium (K): Disease resistance, quality, water regulation"
+    ],
+    "secondary_nutrients": "Calcium, Magnesium, Sulfur",
+    "micro_nutrients": "Zinc, Iron, Copper, Manganese, Boron, Molybdenum",
+    "soil_testing": "Essential before fertilizer application",
+    "fertilizer_calculation": "Based on soil test results and crop requirement",
+    "application_methods": ["Basal application (at sowing)", "Top dressing", "Foliar spray", "Fertigation"],
+    "urea": "46% Nitrogen, apply in splits, not surface broadcast",
+    "dap": "18:46:0 NPK, phosphorus rich, apply at sowing",
+    "mop": "60% Potash, apply as basal or top dressing",
+    "balanced_fertilization": "Avoid excessive use of any single nutrient",
+    "deficiency_symptoms": "Yellowing (N), Purple tinge (P), Marginal burning (K)",
+    "toxicities": "Excess fertilizer burns roots, pollutes water",
+    "government_schemes": "Neem-coated urea mandatory, fertilizer subsidy through DBT",
+    "fertilizer_availability": "Check at cooperative societies, authorized dealers"
+  },
+  "organic farming": {
+    "definition": "Farming without synthetic chemicals, using natural inputs and ecological principles",
+    "core_principles": ["Health", "Ecology", "Fairness", "Care"],
+    "key_practices": [
+      "Use of organic manure (FYM, compost, vermicompost)",
+      "Green manuring",
+      "Crop rotation",
+      "Mixed cropping",
+      "Biological pest control",
+      "Mulching",
+      "Weed management through mechanical methods"
+    ],
+    "organic_inputs": [
+      "FYM (Farm Yard Manure): 10-15 tons/hectare",
+      "Vermicompost: 5-10 tons/hectare",
+      "Green manure: Sunhemp, Dhaincha",
+      "Liquid manure: Jeevamrut, Panchagavya",
+      "Neem-based pesticides"
+    ],
+    "certification_process": [
+      "Apply to APEDA or recognized certification body",
+      "Conversion period: 2-3 years",
+      "Inspection by certifying agency",
+      "Documentation of all practices",
+      "Annual renewal"
+    ],
+    "participatory_guarantee_system": "Alternative certification for local markets",
+    "benefits": [
+      "Healthier food, no chemical residues",
+      "Sustainable soil health",
+      "Better water retention",
+      "Higher prices in market",
+      "Climate resilient",
+      "Biodiversity conservation"
+    ],
+    "challenges": [
+      "Lower initial yields",
+      "More labor intensive",
+      "Knowledge intensive",
+      "Marketing difficulties",
+      "Certification cost"
+    ],
+    "government_schemes": [
+      "Paramparagat Krishi Vikas Yojana (PKVY)",
+      "Mission Organic Value Chain Development (MOVCD)",
+      "Capital investment subsidy for organic farming"
+    ],
+    "organic_india": "Sikkim 100% organic state, many states promoting organic clusters"
+  },
+  "weather helpline": {
+    "service_name": "Weather information for farmers",
+    "short_code": "196 (toll free from mobile)",
+    "service_provider": "India Meteorological Department (IMD) in collaboration with agriculture departments",
+    "information_provided": [
+      "Daily weather forecast (5 days)",
+      "Rainfall warnings",
+      "Temperature (max/min)",
+      "Humidity levels",
+      "Wind speed and direction",
+      "Thunderstorm alerts",
+      "Cyclone warnings",
+      "Agricultural advisories based on weather"
+    ],
+    "languages": "Available in regional languages",
+    "sms_service": "Register for weather alerts on mobile",
+    "alternative_access": [
+      "Website: mausam.imd.gov.in",
+      "Mobile app: Meghdoot, Mausam",
+      "TV/Radio bulletins",
+      "Newspaper",
+      "Kisan Call Centre (1800-180-1551)"
+    ],
+    "agromet_advisory": "Jointly issued by IMD and agriculture universities",
+    "district_level": "Forecast for every district",
+    "farmers_benefit": "Plan farming operations based on weather forecast",
+    "alerts": "Red/Orange/Yellow alerts for severe weather"
+  },
+  "crop insurance": {
+    "scheme_name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "objective": "Provide insurance coverage and financial support to farmers in case of crop failure",
+    "covered_risks": [
+      "Natural fire and lightning",
+      "Storm, hailstorm, cyclone, typhoon, tempest, hurricane, tornado",
+      "Flood, inundation, landslide",
+      "Drought, dry spells",
+      "Pests and diseases",
+      "Post-harvest losses (up to 14 days)"
+    ],
+    "premium_rates": [
+      "Kharif crops: 2% of sum insured (maximum)",
+      "Rabi crops: 1.5% of sum insured (maximum)",
+      "Commercial/horticulture crops: 5% of sum insured (maximum)"
+    ],
+    "balance_premium": "Balance premium shared equally by Central and State Government",
+    "sum_insured": "Up to value of threshold yield (scale of finance)",
+    "coverage": [
+      "Sowing/planting risk",
+      "Standing crop risk",
+      "Post-harvest risk",
+      "Localized calamities (hailstorm, landslide)",
+      "Prevented sowing/planting risk"
+    ],
+    "claim_calculation": "Based on yield shortfall compared to threshold yield",
+    "enrollment": "Through banks, CSC, insurance company agents before notified cut-off dates",
+    "documents": ["Land records", "Bank account", "Aadhaar", "Crop sown declaration"],
+    "cutoff_dates": "Kharif: July 31, Rabi: December 31 (varies by state)",
+    "technology_use": "YES-TECH for yield estimation, satellite imagery for assessment",
+    "helpline": "1800-180-1551 or respective insurance company helpline",
+    "compulsory_coverage": "For farmers availing crop loans",
+    "voluntary_coverage": "Non-loanee farmers can also apply",
+    "restructured_scheme": "PMFBY made voluntary for farmers from 2020, optional for states"
+  },
+  "jan dhan yojana": {
+    "scheme_name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "launched": "August 28, 2014",
+    "objective": "Ensure access to financial services for all households",
+    "key_features": [
+      "Zero balance savings account",
+      "RuPay debit card",
+      "Accidental insurance cover of ₹2 lakh",
+      "Life insurance cover of ₹30,000 (for accounts opened before specific date)",
+      "Overdraft facility up to ₹10,000 after satisfactory operation",
+      "Mobile banking facility",
+      "Direct benefit transfer (DBT) eligible"
+    ],
+    "eligibility": "Any Indian citizen (one account per adult)",
+    "documents": ["Aadhaar", "PAN/Form 60", "Recent photograph"],
+    "where_to_open": "Any public/private sector bank, rural bank, cooperative bank",
+    "insurance_enhancement": "New accounts get ₹2 lakh accident insurance (from 2018)",
+    "overdraft": "Available after 6 months of satisfactory operation",
+    "mobile_app": "Connect with bank through respective bank's mobile app",
+    "current_status": "Over 45 crore accounts opened, deposits over ₹1.5 lakh crore",
+    "beneficiaries": "Women accounts priority, 55% accounts of women",
+    "rural_focus": "Over 60% accounts in rural/semi-urban areas",
+    "dbt_linkage": "Subsidies directly credited to Jan Dhan accounts",
+    "financial_inclusion": "Part of government's financial inclusion mission"
+  },
+  "digital payments": {
+    "definition": "Electronic transactions for payments without physical cash",
+    "types": [
+      "UPI (Unified Payments Interface)",
+      "Debit/Credit cards",
+      "Net banking",
+      "Mobile wallets",
+      "Aadhaar Pay",
+      "BHIM app",
+      "QR code scanning",
+      "NEFT/RTGS",
+      "IMPS"
+    ],
+    "popular_upi_apps": ["BHIM", "Google Pay", "PhonePe", "Paytm", "Amazon Pay", "WhatsApp Pay"],
+    "upi_benefits": [
+      "24x7 availability",
+      "Immediate transfer",
+      "No charges (for most transactions)",
+      "Single app for multiple banks",
+      "Virtual payment address (VPA) - no need to share bank details",
+      "QR code based payments"
+    ],
+    "how_to_start": [
+      "Link bank account to UPI app",
+      "Create UPI PIN",
+      "Add beneficiaries or scan QR code",
+      "Enter PIN to pay"
+    ],
+    "security_tips": [
+      "Never share UPI PIN",
+      "Don't scan unknown QR codes",
+      "Verify before paying",
+      "Set transaction limits",
+      "Use secure networks"
+    ],
+    "government_initiatives": [
+      "DigiDhan Mission",
+      "Lucky Grahak Yojana (for promoting digital payments)",
+      "Discount on digital payments (fuel, insurance, railway tickets)",
+      "Rupay card promotion"
+    ],
+    "digital_village": "Scheme to make villages cashless",
+    "common_uses": [
+      "Kirana stores",
+      "Vegetable vendors",
+      "Online shopping",
+      "Bill payments",
+      "Money transfer to family",
+      "Loan repayment",
+      "Utility payments"
+    ],
+    "limits": "UPI: ₹1 lakh per transaction (₹2 lakh for some banks)",
+    "qr_code": "BharatQR, UPI QR - scan and pay"
+  },
+  "bhim app": {
+    "full_form": "Bharat Interface for Money",
+    "developed_by": "National Payments Corporation of India (NPCI)",
+    "launched": "December 30, 2016",
+    "based_on": "UPI (Unified Payments Interface)",
+    "features": [
+      "Send money to bank account using UPI ID, account number+IFSC, Aadhaar number, QR code",
+      "Request money from others",
+      "Scan and pay at shops",
+      "Check transaction history",
+      "Multiple bank accounts in one app",
+      "Virtual payment address (@okbhim, @okhdfcbank, etc.)",
+      "No transaction charges"
+    ],
+    "how_to_use": [
+      "Download BHIM app from Play Store/App Store",
+      "Select language (available in 14 languages)",
+      "Register with mobile number (linked to bank)",
+      "Set app lock PIN",
+      "Create UPI PIN for each bank account",
+      "Start transacting"
+    ],
+    "supported_banks": "Over 200 banks in India",
+    "daily_limit": "₹20,000 per day (can be increased to ₹40,000 with higher limits)",
+    "per_transaction_limit": "₹5,000 to ₹1,00,000 depending on bank",
+    "security": [
+      "App lock with PIN",
+      "UPI PIN for each transaction",
+      "Device binding",
+      "MPIN never shared"
+    ],
+    "referral_program": "Refer and earn cashback",
+    "rewards": "Cashback on first transaction, periodic rewards",
+    "helpline": "1800-120-2255 (toll free)",
+    "special_features": [
+      "Aadhaar Pay (biometric payments at merchant)",
+      "Check balance",
+      "Send money to Aadhaar number",
+      "Collect money from multiple people"
+    ]
+  },
+  "aadhaar update": {
+    "what_is": "Update or correct information in Aadhaar database",
+    "types_of_updates": [
+      "Name correction",
+      "Address change",
+      "Date of birth correction",
+      "Gender update",
+      "Mobile number update/registration",
+      "Email ID addition",
+      "Biometric update (photo, fingerprint, iris)"
+    ],
+    "online_update": [
+      "Visit myaadhaar.uidai.gov.in",
+      "Login with Aadhaar number and OTP",
+      "Select document update",
+      "Upload supporting documents",
+      "Pay fee (₹50 for demographic, ₹100 for biometric)",
+      "Get Update Request Number (URN) for tracking"
+    ],
+    "offline_update": [
+      "Visit nearest Aadhaar Seva Kendra or Permanent Enrolment Center",
+      "Fill update form",
+      "Submit original documents for verification",
+      "Biometric authentication",
+      "Pay fee",
+      "Collect acknowledgment with URN"
+    ],
+    "documents_accepted": [
+      "Passport",
+      "Voter ID",
+      "Driving license",
+      "PAN card",
+      "Bank passbook",
+      "Ration card",
+      "Electricity bill",
+      "Water bill",
+      "Birth certificate (for DOB)"
+    ],
+    "processing_time": "90 days (usually completed earlier)",
+    "status_check": "Check using URN on myaadhaar.uidai.gov.in",
+    "downloaded_aadhaar": "After update, download updated e-Aadhaar",
+    "mobile_number": "Essential for online updates, OTP based authentication",
+    "free_updates": "First update of name, address, DOB, gender in first 10 years is free",
+    "biometric_update": "Recommended every 10 years for children, after age 5 and 15",
+    "helpline": "1947 (toll free)",
+    "important": "Keep Aadhaar information current for government benefits"
+  },
+  "voter id": {
+    "official_name": "Electors Photo Identity Card (EPIC)",
+    "issued_by": "Election Commission of India",
+    "purpose": "Identity proof for voting in elections",
+    "eligibility": "Indian citizen, 18 years or above on January 1 of the year",
+    "how_to_apply": [
+      "Online: Visit nvsp.in (National Voters' Services Portal)",
+      "Form 6 for new registration",
+      "Form 8 for correction/update",
+      "Form 7 for objection/deletion",
+      "Offline: Visit nearest voter help center or electoral registration office"
+    ],
+    "documents_required": [
+      "Proof of age (Birth certificate, School leaving certificate, Passport)",
+      "Proof of residence (Passport, Bank passbook, Ration card, Driving license, Utility bill)",
+      "Passport size photograph"
+    ],
+    "online_process": [
+      "Register on nvsp.in",
+      "Fill Form 6 with details",
+      "Upload documents",
+      "Submit, get reference number",
+      "BLO visits for verification",
+      "EPIC delivered by post"
+    ],
+    "status_check": "Check application status on nvsp.in with reference number",
+    "voter_list": "Check name in voter list online (electoralsearch.in)",
+    "epic_number": "Unique alphanumeric voter ID number",
+    "correction": "Name/address/photo correction through Form 8",
+    "duplicate_epic": "Apply for duplicate if lost (Form 6 with fee)",
+    "helpline": "1950 (toll free)",
+    "voter_helpline_app": "Mobile app from Election Commission",
+    "voting_day": "Carry EPIC or alternative approved ID for voting"
+  },
+  "pan card": {
+    "full_form": "Permanent Account Number",
+    "issued_by": "Income Tax Department, Government of India",
+    "format": "10 character alphanumeric (AAAAA0000A)",
+    "purpose": [
+      "Financial transactions above specified limits",
+      "Income tax filing",
+      "Identity proof",
+      "Opening bank account",
+      "Buying/selling property",
+      "Dematerialized (Demat) account",
+      "Credit/debit card application",
+      "High value purchases"
+    ],
+    "eligibility": "Any Indian citizen including minors, NRIs, foreign citizens (for transactions in India)",
+    "how_to_apply": [
+      "Online: nsdl.co.in or utiitsl.com",
+      "Form 49A (for Indian citizens)",
+      "Form 49AA (for foreign citizens)",
+      "Offline: Through PAN service centers"
+    ],
+    "documents_required": [
+      "Proof of identity (Aadhaar, Voter ID, Passport, Driving license)",
+      "Proof of address (Aadhaar, Voter ID, Passport, Bank statement, Utility bill)",
+      "Date of birth proof (Birth certificate, School certificate, Passport)",
+      "Passport size photograph"
+    ],
+    "application_fee": "₹93 (including GST) for Indian communication address, ₹864 for foreign address",
+    "processing_time": "15-20 working days",
+    "status_check": "Check on NSDL/UTI website with acknowledgment number",
+    "e-pan": "Instant e-PAN available through Aadhaar based process",
+    "pan_verification": "Verify PAN at incometaxindia.gov.in",
+    "correction": "Apply for correction through online portal",
+    "link_aadhaar": "Mandatory to link PAN with Aadhaar",
+    "penalty": "Not having PAN for eligible transactions attracts penalty",
+    "helpline": "1800-180-1961 (NSDL), 1800-209-0200 (UTI)"
+  },
+  "scholarship": {
+    "types": ["Central government", "State government", "Private", "Institution based"],
+    "national_scholarship_portal": "scholarships.gov.in - one stop portal for all government scholarships",
+    "popular_central_schemes": [
+      "Pre-Matric Scholarship for SC/ST/OBC/Minority",
+      "Post-Matric Scholarship for SC/ST/OBC",
+      "Merit-cum-Means Scholarship for minority students",
+      "National Means-cum-Merit Scholarship (NMMS)",
+      "National Talent Search Examination (NTSE)",
+      "Kishore Vaigyanik Protsahan Yojana (KVPY)",
+      "AICTE Pragati Scholarship (for girls)",
+      "AICTE Saksham Scholarship (for differently abled)"
+    ],
+    "eligibility_general": [
+      "Indian citizenship",
+      "Minimum educational qualification",
+      "Income criteria (varies by scheme)",
+      "Category specific (SC/ST/OBC/Minority/General)",
+      "Minimum marks requirement"
+    ],
+    "application_process": [
+      "Register on scholarships.gov.in",
+      "Fill application form with personal/academic details",
+      "Upload required documents",
+      "Submit to concerned authority (institution/state)",
+      "Track application status"
+    ],
+    "documents_general": [
+      "Aadhaar card",
+      "Income certificate",
+      "Caste certificate (if applicable)",
+      "Previous year mark sheets",
+      "Fee receipt (for renewal)",
+      "Bank account details (with IFSC)",
+      "Passport size photograph"
+    ],
+    "renewal": "Many scholarships require annual renewal with marks criteria",
+    "last_date": "Usually September-October for central schemes",
+    "disbursement": "Direct Benefit Transfer (DBT) to bank account",
+    "helpline": "Scholarships portal helpline or state helpline numbers",
+    "important": "Apply early, keep documents ready, check eligibility carefully"
+  },
+  "girl education": {
+    "campaign": "Beti Bachao Beti Padhao (Save Girl Child, Educate Girl Child)",
+    "launched": "January 22, 2015",
+    "objectives": [
+      "Prevent gender biased sex selection",
+      "Ensure survival and protection of girl child",
+      "Ensure education and participation of girl child"
+    ],
+    "key_schemes_for_girl_education": [
+      "Sukanya Samriddhi Yojana - Savings scheme for girl child",
+      "Kasturba Gandhi Balika Vidyalaya - Residential schools for girls",
+      "National Scheme of Incentives to Girls for Secondary Education",
+      "CBSE Merit Scholarship Scheme for Girls",
+      "State specific girl education schemes"
+    ],
+    "sukanya_samriddhi": {
+      "interest": "Highest interest rate among small savings schemes (currently 8%)",
+      "opening": "At post office or authorized bank branches",
+      "eligibility": "Girl child below 10 years",
+      "deposit": "Minimum ₹250, maximum ₹1.5 lakh per year",
+      "maturity": "21 years from opening or marriage after 18"
+    },
+    "challenges": ["Child marriage", "Gender discrimination", "Safety concerns", "Financial constraints", "Distance to schools"],
+    "government_initiatives": [
+      "Free education for girls up to higher secondary in government schools",
+      "Girls hostel scheme for secondary and higher education",
+      "STEM education promotion for girls",
+      "Scholarships exclusively for girls",
+      "Safe transport facilities"
+    ],
+    "importance": [
+      "Reduces child marriage",
+      "Improves maternal and child health",
+      "Increases economic productivity",
+      "Empowers women",
+      "Breaks poverty cycle"
+    ],
+    "helpline": "Childline 1098 for reporting issues related to girl child",
+    "district_level": "Program implemented in 640+ districts across India"
+  },
+  "pregnancy care": {
+    "importance": "Proper care during pregnancy ensures healthy mother and baby",
+    "antenatal_care": "Regular checkups throughout pregnancy",
+    "recommended_visits": [
+      "First trimester: First visit as soon as pregnancy confirmed",
+      "Second trimester: Monthly visits",
+      "Third trimester: Fortnightly visits (up to 36 weeks), weekly visits (after 36 weeks)",
+      "Minimum 4 visits as per government guidelines"
+    ],
+    "janani_suraksha_yojana": {
+      "benefits": "Cash assistance for institutional delivery",
+      "amount": "₹1400 (rural), ₹1000 (urban) in low performing states; ₹700 (rural), ₹600 (urban) in high performing states",
+      "eligibility": "Pregnant women 19 years and above, BPL families"
+    },
+    "pradhan_mantri_matru_vandana_yojana": {
+      "benefits": "₹5000 in three installments",
+      "eligibility": "First live birth, 19 years and above",
+      "installments": "First: Early pregnancy registration, Second: After 6 months pregnancy, Third: After childbirth and vaccination"
+    },
+    "nutrition_during_pregnancy": [
+      "Iron and folic acid supplements (mandatory)",
+      "Calcium supplements",
+      "Protein rich diet (dal, eggs, milk, nuts)",
+      "Fruits and vegetables for vitamins",
+      "Avoid alcohol, smoking, tobacco",
+      "Drink plenty of water"
+    ],
+    "danger_signs": [
+      "Severe abdominal pain",
+      "Heavy bleeding",
+      "Severe headache with blurred vision",
+      "Convulsions",
+      "High fever",
+      "Reduced fetal movement",
+      "Leaking of water before 37 weeks"
+    ],
+    "government_services": [
+      "Free delivery at government hospitals",
+      "Free medicines and diagnostics",
+      "Janani Shishu Suraksha Karyakram (JSSK) - free transport, free treatment",
+      "Village Health Nutrition Day at Anganwadi"
+    ],
+    "vaccination": "TT (Tetanus Toxoid) 2 doses during pregnancy",
+    "postnatal_care": "Checkup within 48 hours, 7-14 days, and 6 weeks after delivery",
+    "helpline": "Maternal Health Helpline: 104"
+  },
+  "child vaccination": {
+    "program": "Universal Immunization Programme (UIP)",
+    "mission": "Mission Indradhanush - accelerated vaccination coverage",
+    "importance": "Prevents life threatening diseases, builds immunity",
+    "vaccination_schedule": {
+      "birth": "BCG, OPV-0, Hepatitis B-0",
+      "6_weeks": "OPV-1, DPT-1, Hepatitis B-1, Rotavirus-1, PCV-1, IPV-1",
+      "10_weeks": "OPV-2, DPT-2, Rotavirus-2, PCV-2",
+      "14_weeks": "OPV-3, DPT-3, Hepatitis B-3, Rotavirus-3, PCV-3, IPV-2",
+      "9_12_months": "Measles-Rubella-1, Vitamin A dose",
+      "16_24_months": "DPT booster-1, Measles-Rubella-2, OPV booster, Vitamin A dose",
+      "5_6_years": "DPT booster-2",
+      "10_16_years": "Tetanus and adult Diphtheria (Td) vaccine"
+    },
+    "diseases_prevented": [
+      "Tuberculosis (BCG)",
+      "Polio (OPV, IPV)",
+      "Diphtheria, Pertussis, Tetanus (DPT)",
+      "Hepatitis B",
+      "Measles, Rubella",
+      "Rotavirus diarrhea",
+      "Pneumonia (PCV)",
+      "Japanese Encephalitis (in endemic districts)"
+    ],
+    "where_to_get": [
+      "Government hospitals",
+      "Primary Health Centers (PHC)",
+      "Community Health Centers (CHC)",
+      "Anganwadi centers (on immunization day)",
+      "Urban health centers"
+    ],
+    "all_free": "All vaccines under UIP are completely free at government facilities",
+    "vaccination_card": "Maintain vaccination card carefully, carry for every visit",
+    "side_effects": "Mild fever, soreness at injection site - normal, consult doctor if severe",
+    "missed_dose": "Catch up vaccination available, consult doctor",
+    "helpline": "Child health helpline: 104",
+    "pulse_polio": "Additional polio drops on National Immunization Days",
+    "covid_impact": "Vaccination services disrupted during COVID, catch up drives ongoing"
+  },
+  "clean water": {
+    "importance": "Essential for health, prevents waterborne diseases",
+    "jal_jeevan_mission": {
+      "objective": "Har Ghar Jal - Tap water connection to every rural household by 2024",
+      "coverage": "Over 10 crore households already connected",
+      "implementation": "Through Gram Panchayats, Village Water & Sanitation Committees",
+      "funding": "Central and state share, community contribution"
+    },
+    "water_borne_diseases": [
+      "Diarrhea",
+      "Cholera",
+      "Typhoid",
+      "Hepatitis A & E",
+      "Giardiasis",
+      "Amoebiasis"
+    ],
+    "water_purification_methods": [
+      "Boiling (rolling boil for 10-15 minutes)",
+      "Chlorination (1-2 drops of chlorine solution per liter)",
+      "Water filters (candle, UV, RO)",
+      "Solar disinfection (clear PET bottles in sun for 6 hours)",
+      "Filtration through cloth (for removing Guinea worm)"
+    ],
+    "safe_storage": [
+      "Clean covered containers",
+      "Wide mouth containers for easy cleaning",
+      "Use ladle with long handle",
+      "Don't dip fingers in drinking water"
+    ],
+    "hand_pumps_tube_wells": "Get water tested for arsenic/fluoride in affected areas",
+    "rainwater_harvesting": "Collect and store rainwater for drinking after treatment",
+    "government_testing": "Water testing facilities available at public health labs",
+    "water_quality": "BIS standards for drinking water (IS 10500)",
+    "helpline": "Jal Jeevan Mission helpline: 1800-120-8040",
+    "community_management": "VWSC manages water supply in villages",
+    "water_conservation": "Use water wisely, repair leaks, reuse greywater"
+  },
+  "toilet hygiene": {
+    "campaign": "Swachh Bharat Mission (Clean India Mission)",
+    "launched": "October 2, 2014",
+    "objective": "Make India open defecation free (ODF) and maintain cleanliness",
+    "achievements": [
+      "Over 10 crore toilets constructed",
+      "All villages declared ODF (2019)",
+      "Now moving towards ODF Plus"
+    ],
+    "importance_of_toilet_use": [
+      "Prevents spread of diseases",
+      "Protects dignity and safety, especially of women",
+      "Clean environment",
+      "Prevents water contamination",
+      "Reduces child mortality"
+    ],
+    "maintenance_tips": [
+      "Clean daily with water and cleaning agent",
+      "Keep toilet dry",
+      "Use dustbin for sanitary waste",
+      "Ensure proper water supply",
+      "Regular septic tank cleaning (every 2-3 years)",
+      "Repair leaks and damages promptly"
+    ],
+    "swachhagrahi": "Community motivator for toilet use and hygiene",
+    "individual_household_toilet": "Financial assistance of ₹12,000 (erstwhile scheme) under SBM",
+    "community_toilets": "In urban slums and public places",
+    "school_toilets": "Separate toilets for boys and girls in all government schools",
+    "behavior_change": "Key focus of Swachh Bharat Mission Phase 2",
+    "helpline": "Swachh Bharat helpline: 1969",
+    "rural_sanitation": "ODF Plus villages with solid/liquid waste management",
+    "urban_sanitation": "SBM-U focuses on waste water treatment and fecal sludge management",
+    "open_defecation_free": "Sustaining ODF status through continued use and maintenance"
+  },
+  "hand washing": {
+    "importance": "Single most effective way to prevent infections",
+    "critical_times": [
+      "Before eating or cooking",
+      "After using toilet",
+      "After cleaning child's bottom",
+      "Before feeding child",
+      "After coughing/sneezing",
+      "After handling animals",
+      "After coming from outside",
+      "Before and after treating wounds",
+      "After touching garbage"
+    ],
+    "proper_technique": {
+      "steps": [
+        "Wet hands with clean running water",
+        "Apply soap",
+        "Rub hands palm to palm",
+        "Rub back of both hands",
+        "Rub between fingers",
+        "Rub thumbs",
+        "Rub fingertips on palms",
+        "Rub wrists",
+        "Rinse thoroughly",
+        "Dry with clean cloth or air dry"
+      ],
+      "duration": "At least 40-60 seconds (20 seconds of rubbing)"
+    },
+    "soap_vs_sanitizer": {
+      "soap_water": "Best when hands visibly dirty, removes all germs",
+      "sanitizer": "When soap not available, at least 60% alcohol content"
+    },
+    "global_handwashing_day": "October 15",
+    "school_programs": "Hand washing education in schools under Swachh Bharat",
+    "anganwadi_activities": "Teach children hand washing through play",
+    "disease_prevention": [
+      "Diarrhea (reduces by 40%)",
+      "Respiratory infections (reduces by 20%)",
+      "COVID-19 and other viruses",
+      "Skin and eye infections"
+    ],
+    "community_approach": "Create hand washing stations at community events",
+    "government_initiative": "Swachh Bharat Mission promotes hand washing",
+    "helpline": "Health helpline: 104"
+  },
+  "first aid": {
+    "definition": "Immediate assistance to injured person before medical help arrives",
+    "golden_rule": "Do no further harm",
+    "first_aid_kit_contents": [
+      "Sterile gauze and bandages",
+      "Adhesive tape",
+      "Antiseptic solution (Betadine, Dettol)",
+      "Cotton",
+      "Scissors and tweezers",
+      "Disposable gloves",
+      "Pain relievers (paracetamol, ibuprofen)",
+      "Antihistamines (for allergies)",
+      "Oral rehydration salts (ORS)",
+      "Burn ointment",
+      "Thermometer",
+      "Safety pins",
+      "Torch"
+    ],
+    "wound_care": [
+      "Clean wound with clean water or saline",
+      "Apply antiseptic",
+      "Cover with sterile dressing",
+      "Change dressing daily or if wet",
+      "Seek medical help if deep, bleeding heavily, or signs of infection"
+    ],
+    "bleeding_control": [
+      "Apply direct pressure on wound with clean cloth",
+      "Elevate injured part if possible",
+      "Apply pressure bandage",
+      "Do not remove object embedded in wound",
+      "Seek immediate medical help"
+    ],
+    "burns": [
+      "Cool burn under running water for 10-20 minutes",
+      "Do not apply ice directly",
+      "Do not apply butter, oil, toothpaste",
+      "Cover with sterile non-stick dressing",
+      "Seek medical help for severe/large burns"
+    ],
+    "fracture": [
+      "Immobilize injured part",
+      "Apply splint if trained",
+      "Do not try to straighten",
+      "Support with sling for arm injuries",
+      "Seek medical help"
+    ],
+    "choking": [
+      "Ask 'Are you choking?'",
+      "If cannot breathe/cough: Heimlich maneuver",
+      "Stand behind, arms around waist",
+      "Fist above navel, thrust inward and upward",
+      "Repeat until object dislodged",
+      "If unconscious, start CPR"
+    ],
+    "cpr_basics": [
+      "Check responsiveness",
+      "Call for help",
+      "If not breathing: Start chest compressions",
+      "Push hard and fast (100-120/min)",
+      "30 compressions, 2 breaths",
+      "Continue until help arrives"
+    ],
+    "poisoning": [
+      "Call poison control immediately",
+      "Do not induce vomiting unless instructed",
+      "Save poison container",
+      "If swallowed poison, give water/milk if instructed",
+      "If on skin, rinse with water"
+    ],
+    "heat_stroke": [
+      "Move to cool place",
+      "Remove excess clothing",
+      "Cool with wet cloth or fan",
+      "Give cool water if conscious",
+      "Seek immediate medical help"
+    ],
+    "emergency_numbers": [
+      "Ambulance: 108",
+      "Police: 100",
+      "Fire: 101",
+      "Disaster management: 108"
+    ],
+    "training": "First aid training available from Red Cross, St John Ambulance, NGOs",
+    "helpline": "Medical helpline: 104"
+  },
+  "snake bite": {
+    "indian_snakes": {
+      "venomous": [
+        "Indian Cobra (Nag)",
+        "Russell's Viper (Daboia)",
+        "Saw-scaled Viper (Phoorsa)",
+        "Krait (Karait)"
+      ],
+      "non_venomous": "Rat snake, Python, Tree snake, many others"
+    },
+    "symptoms": {
+      "cobra_krait": "Neurotoxic - Paralysis, drooping eyelids, difficulty breathing, swallowing",
+      "viper": "Hemotoxic - Swelling, bleeding, pain, kidney damage",
+      "general": "Pain, swelling, nausea, vomiting, dizziness"
+    },
+    "do_not": [
+      "DO NOT apply tourniquet (tight band)",
+      "DO NOT cut the wound",
+      "DO NOT suck the venom",
+      "DO NOT apply ice",
+      "DO NOT use electric shock",
+      "DO NOT waste time on traditional remedies",
+      "DO NOT run or move excessively"
+    ],
+    "do": [
+      "Keep victim calm and still",
+      "Immobilize bitten limb (like fracture)",
+      "Remove jewelry/watches",
+      "Transport to hospital immediately",
+      "Keep bitten part below heart level",
+      "Note snake appearance (if safely possible)",
+      "Reassure victim - not all bites are venomous"
+    ],
+    "treatment": {
+      "anti_snake_venom": "Only specific treatment, available free at government hospitals",
+      "timing": "ASV most effective within 4 hours, still useful later",
+      "hospitalization": "Minimum 24 hours observation required"
+    },
+    "prevention": [
+      "Wear shoes/boots when walking at night",
+      "Use torch at night",
+      "Check shoes/clothes before wearing",
+      "Keep surroundings clean, no piles of wood/rubbish",
+      "Sleep on cot, not floor in snake prone areas",
+      "Use mosquito nets (also protects from snakes)"
+    ],
+    "myths_vs_facts": [
+      "Myth: Snake bite always fatal - Fact: Only 50% of venomous bites inject venom",
+      "Myth: Black snake venomous - Fact: Color not indicator",
+      "Myth: Snake charmers can cure - Fact: Only ASV works"
+    ],
+    "helpline": "Snake bite treatment available at all government hospitals, call 108 for ambulance",
+    "national_program": "National Snakebite Management Protocol under NHM"
+  },
+  "heat stroke": {
+    "definition": "Severe heat illness when body temperature rises above 40°C (104°F)",
+    "causes": [
+      "Prolonged exposure to high temperatures",
+      "Strenuous work in heat",
+      "Dehydration",
+      "Poor ventilation",
+      "Certain medications"
+    ],
+    "risk_factors": [
+      "Elderly and infants",
+      "Outdoor workers",
+      "Athletes",
+      "People with chronic illness",
+      "Low socioeconomic status (poor housing, no cooling)"
+    ],
+    "symptoms": [
+      "High body temperature (103°F+)",
+      "Hot, dry skin (no sweating in classic heat stroke)",
+      "Rapid strong pulse",
+      "Headache",
+      "Dizziness, confusion",
+      "Nausea",
+      "Loss of consciousness",
+      "Seizures"
+    ],
+    "first_aid": [
+      "Move to cool, shaded area",
+      "Remove excess clothing",
+      "Cool rapidly - cold water immersion if possible",
+      "Or cover with wet sheets and fan vigorously",
+      "Apply ice packs to neck, armpits, groin",
+      "If conscious, give cool water",
+      "Monitor temperature",
+      "Seek immediate medical help"
+    ],
+    "prevention": [
+      "Drink plenty of water (even if not thirsty)",
+      "Avoid alcohol, caffeine",
+      "Wear light, loose, cotton clothes",
+      "Use hat/umbrella in sun",
+      "Avoid outdoor work during peak heat (12-3 PM)",
+      "Use fans/coolers",
+      "Never leave children in parked car",
+      "Take breaks in shade",
+      "ORS or lemon water for rehydration"
+    ],
+    "heat_cramps": "Painful muscle spasms - rest, cool place, ORS",
+    "heat_exhaustion": "Heavy sweating, weakness, cool clammy skin - treat as above, if worsens seek help",
+    "government_advisory": "Heat wave warnings from IMD, work hour adjustments in heat prone areas",
+    "helpline": "108 for emergency, 104 for health advice",
+    "seasonal_campaigns": "Heat action plans in states like Odisha, Gujarat, Telangana"
+  },
+  "winter care": {
+    "cold_related_illnesses": [
+      "Hypothermia (low body temperature)",
+      "Frostbite (freezing of skin/tissues)",
+      "Cold, Flu, Pneumonia",
+      "Asthma exacerbation",
+      "Joint pain aggravation"
+    ],
+    "hypothermia_symptoms": [
+      "Shivering (early)",
+      "Confusion, drowsiness (late)",
+      "Slurred speech",
+      "Slow breathing",
+      "Weak pulse",
+      "Loss of consciousness"
+    ],
+    "hypothermia_first_aid": [
+      "Move to warm place",
+      "Remove wet clothing",
+      "Warm gradually - blankets, warm packs",
+      "Warm drinks (non-alcoholic)",
+      "CPR if unconscious not breathing",
+      "Seek medical help"
+    ],
+    "frostbite_symptoms": [
+      "Cold, numb skin",
+      "White or grayish-yellow skin",
+      "Hard or waxy skin",
+      "Blisters after rewarming"
+    ],
+    "frostbite_first_aid": [
+      "Move to warm place",
+      "Warm affected area in warm water (37-39°C)",
+      "Do not rub/massage",
+      "Do not use direct heat (fire/heaters)",
+      "Do not break blisters",
+      "Seek medical help"
+    ],
+    "general_winter_care": [
+      "Wear multiple layers of warm clothing",
+      "Cover head, ears, hands, feet",
+      "Use woolen caps, gloves, socks",
+      "Stay dry - wet clothes lose heat rapidly",
+      "Eat warm, nutritious food",
+      "Drink adequate fluids",
+      "Keep home warm but ventilated",
+      "Avoid alcohol (increases heat loss)",
+      "Check on elderly neighbors",
+      "Care for livestock - provide shelter"
+    ],
+    "newborn_care_in_winter": [
+      "Keep baby warm with layers",
+      "Skin-to-skin contact (kangaroo care)",
+      "Delay bathing in extreme cold",
+      "Watch for signs of hypothermia (cold to touch, lethargy)"
+    ],
+    "cold_wave_warnings": "IMD issues cold wave warnings, follow local advisories",
+    "shelters": "Night shelters for homeless in cities",
+    "government_schemes": "Winter relief distribution in some states",
+    "helpline": "108 for emergencies, 1098 for child in need"
+  },
+  "eye care": {
+    "common_eye_problems": [
+      "Red eyes",
+      "Irritation/itching",
+      "Watering",
+      "Dry eyes",
+      "Stye (painful lump)",
+      "Conjunctivitis (pink eye)",
+      "Refractive errors (spectacle number)"
+    ],
+    "eye_infections": {
+      "conjunctivitis": [
+        "Redness, discharge, itching",
+        "Highly contagious",
+        "Clean with cold water",
+        "Use separate towel",
+        "Consult doctor, use prescribed drops",
+        "Wash hands frequently"
+      ],
+      "stye": [
+        "Painful red lump on eyelid",
+        "Warm compress 3-4 times daily",
+        "Do not squeeze",
+        "Consult if persistent"
+      ]
+    },
+    "first_aid_for_eye_injury": [
+      "Foreign body: Do not rub, blink to remove, wash with clean water",
+      "Chemical splash: Flood with water for 15-20 minutes, seek immediate help",
+      "Blow to eye: Cold compress, consult if vision affected",
+      "Cut: Cover gently, seek immediate help"
+    ],
+    "daily_eye_care": [
+      "Wash eyes with clean water daily",
+      "Avoid rubbing eyes",
+      "Take breaks during screen work (20-20-20 rule: every 20 mins, look 20 feet for 20 seconds)",
+      "Maintain distance while reading/TV (minimum 30 cm)",
+      "Use adequate lighting",
+      "Wear sunglasses in strong sun",
+      "Eat vitamin A rich foods (carrot, papaya, green leafy veg)"
+    ],
+    "vision_testing": [
+      "Regular eye checkup every 2 years",
+      "Children: Before school entry, if complaints",
+      "Diabetics: Annual eye check"
+    ],
+    "spectacles": [
+      "Get prescription from qualified optometrist/ophthalmologist",
+      "Use as advised",
+      "Clean lenses with soft cloth",
+      "Store in case when not in use"
+    ],
+    "national_program": "National Programme for Control of Blindness (NPCB)",
+    "free_services": [
+      "Eye checkup at government hospitals",
+      "Cataract surgery free under NPCB"
+    ]
+  }
+}

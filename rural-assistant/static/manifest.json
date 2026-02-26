@@ -1,0 +1,15 @@
+{
+  "name": "Gramin Sahayak",
+  "short_name": "Gramin",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#198754",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2800/2800319.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
