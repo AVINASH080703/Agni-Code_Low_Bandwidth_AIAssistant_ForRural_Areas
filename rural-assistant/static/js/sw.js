@@ -1,47 +1,4 @@
-// const CACHE_NAME = 'rural-assistant-v1';
-// const ASSETS = [
-//     '/',
-//     '/static/css/style.css',
-//     '/static/js/main.js',
-//     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css'
-// ];
-
-// self.addEventListener('install', (event) => {
-//     event.waitUntil(
-//         caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS))
-//     );
-// });
-
-// self.addEventListener('fetch', (event) => {
-//     event.respondWith(
-//         caches.match(event.request).then((response) => {
-//             // Return from cache OR fetch from network
-//             return response || fetch(event.request);
-//         })
-//     );
-// });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const CACHE_NAME = 'gramin-sahayak-v2';
+const CACHE_NAME = 'desi-helper-v1';
 const ASSETS = [
     '/',
     '/static/css/style.css',
@@ -50,7 +7,6 @@ const ASSETS = [
     'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css'
 ];
 
-// Install event - cache assets
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
@@ -62,7 +18,6 @@ self.addEventListener('install', (event) => {
     );
 });
 
-// Activate event - clean old caches
 self.addEventListener('activate', (event) => {
     event.waitUntil(
         caches.keys().then((cacheNames) => {
@@ -78,9 +33,7 @@ self.addEventListener('activate', (event) => {
     );
 });
 
-// Fetch event - serve from cache, fallback to network
 self.addEventListener('fetch', (event) => {
-    // Skip API calls - don't cache them
     if (event.request.url.includes('/api/')) {
         event.respondWith(
             fetch(event.request)
@@ -97,19 +50,15 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
-    // For static assets - cache first
     event.respondWith(
         caches.match(event.request)
             .then((response) => {
-                // Return from cache if found
                 if (response) {
                     return response;
                 }
                 
-                // Otherwise fetch from network
                 return fetch(event.request)
                     .then((networkResponse) => {
-                        // Cache successful responses for future
                         if (networkResponse.status === 200) {
                             const responseToCache = networkResponse.clone();
                             caches.open(CACHE_NAME)
@@ -120,7 +69,6 @@ self.addEventListener('fetch', (event) => {
                         return networkResponse;
                     })
                     .catch(() => {
-                        // If both cache and network fail, return offline page
                         if (event.request.mode === 'navigate') {
                             return caches.match('/');
                         }
