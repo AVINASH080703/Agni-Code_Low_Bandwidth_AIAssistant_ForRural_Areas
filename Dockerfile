@@ -1,19 +1,22 @@
-# Use a base image
-FROM ubuntu:latest
+# Use an official Python runtime as a parent image
+   FROM python:3.9-slim AS base
 
-# Set the working directory
-WORKDIR /app
+   # Set the working directory in the container
+   WORKDIR /app
 
-# Copy files (if any) into the container
-COPY . .
+   # Copy the current directory contents into the container at /app
+   COPY . .
 
-# Install dependencies based on the environment
-ARG ENVIRONMENT=development
-RUN if [ "$ENVIRONMENT" = "production" ]; then \
-        apt-get update && apt-get install -y <production-dependencies>; \
-    else \
-        apt-get update && apt-get install -y <development-dependencies>; \
-    fi
+   # Install any needed packages specified in requirements.txt
+   RUN pip install --no-cache-dir -r requirements.txt
 
-# Command to run your application
-CMD ["echo", "Running in ${ENVIRONMENT} environment"]
+   # Use a multi-stage build for production
+   FROM base AS production
+   ENV NODE_ENV=production
+   RUN pip install --no-cache-dir -r requirements.txt
+
+   # Make port 80 available to the world outside this container
+   EXPOSE 80
+
+   # Run app.py when the container launches
+   CMD ["python", "app.py"]
